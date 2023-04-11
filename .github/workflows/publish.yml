@@ -43,4 +43,5 @@ jobs:
           npm publish
 
       - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        shell: bash
+        run: git push --follow-tags
