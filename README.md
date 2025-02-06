@@ -7,3 +7,5 @@ This GitHub project is designed for testing the publication of an NPM package to
 ```bash
 npm install test-otp
 ```
+
+New line
